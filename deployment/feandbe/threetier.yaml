@@ -13,7 +13,7 @@ spec:
     spec:
       containers:
         - name: backend
-          image: "kayaguralaravikumar/kubernetLabBackend:1.0"
+          image: "kayaguralaravikumar/kubernetlabbackend:1.0"
           ports:
             - name: http
               containerPort: 80
@@ -79,7 +79,7 @@ spec:
     spec:
       containers:
       - name: frontend
-        image: "kayaguralaravikumar/kubernetLabFrontend:1.0"
+        image: "kayaguralaravikumar/kubernetlabfrontend:1.0"
         ports:
           - name: http
             containerPort: 80
